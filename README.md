@@ -38,75 +38,6 @@ A modern e-commerce mobile application built with React Native and Expo, featuri
 - Sales tracking and reports
 - User management
 
-## Project Structure
-
-```
-frontend/
-├── app/                      # Main application screens
-│   ├── _layout.jsx          # Root layout
-│   ├── index.jsx            # Entry point
-│   ├── SplashScreen.jsx
-│   ├── LoginScreen.jsx
-│   ├── SignUpScreen.jsx
-│   ├── HomeScreen.jsx
-│   ├── ProductDetailScreen.jsx
-│   ├── CartScreen.jsx
-│   ├── CheckoutScreen.jsx
-│   ├── PaymentMethodScreen.jsx
-│   ├── CardPaymentScreen.jsx
-│   ├── CashOnDeliveryScreen.jsx
-│   ├── OrderSuccessScreen.jsx
-│   ├── MyOrders.jsx
-│   ├── Order-Details.jsx
-│   ├── FavoritesScreen.jsx
-│   ├── OffersScreen.jsx
-│   ├── UserDashboard.jsx
-│   ├── AccountInformation.jsx
-│   ├── HelpPage.jsx
-│   ├── AIHealthAnalysisScreen.jsx
-│   ├── ResetPasswordScreen.jsx
-│   ├── AdminDashboard.jsx
-│   ├── AddProductScreen.jsx
-│   ├── AllOrders.jsx
-│   └── SalesScreen.jsx
-├── components/              # Reusable components
-│   ├── BottomTab.jsx
-│   ├── CartItem.jsx
-│   ├── ProductCard.jsx
-│   └── SafeScreen.jsx
-├── context/                 # Context providers
-│   ├── CartContext.jsx
-│   └── FavoriteContext.jsx
-├── assets/                  # Images, fonts, etc.
-│   └── images/
-└── utils/                   # Utility functions
-```
-
-## Setup Instructions
-
-### Prerequisites
-
-- Node.js (v14 or higher)
-- npm or yarn
-- Expo CLI
-- iOS Simulator (Mac) or Android Emulator
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/Chathura30/fast-discount-frontend.git
-cd fast-discount-frontend
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Configure environment:
-   - Update API endpoints in your code to point to your backend server
-   - Configure Firebase for push notifications
 
 ### Running the App
 
@@ -200,22 +131,7 @@ Make sure to configure the following in your code:
 - **expo-image-picker:** Image selection
 - **@react-native-async-storage:** Local storage
 
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
-## License
-
-ISC
 
 ## Author
 
 Chathura30
-
-## Support
-
-For issues and questions, please open an issue on GitHub.
