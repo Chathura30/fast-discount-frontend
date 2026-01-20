@@ -45,20 +45,6 @@ Start the development server:
 ```bash
 npm start
 ```
-
-Or use specific platform commands:
-
-```bash
-# Run on Android
-npm run android
-
-# Run on iOS
-npm run ios
-
-# Run on web
-npm run web
-```
-
 ### Expo Go
 
 Scan the QR code with:
@@ -85,24 +71,6 @@ Socket.io integration for live order status updates and notifications.
 ### AI Health Analysis
 Integrated AI-powered health analysis feature for product recommendations and health insights.
 
-## Build for Production
-
-### Android
-```bash
-expo build:android
-```
-
-### iOS
-```bash
-expo build:ios
-```
-
-Or use EAS Build:
-```bash
-eas build --platform android
-eas build --platform ios
-```
-
 ## Environment Configuration
 
 Make sure to configure the following in your code:
@@ -111,13 +79,6 @@ Make sure to configure the following in your code:
 - Socket.io server URL
 - Any third-party API keys
 
-## Scripts
-
-- `npm start` - Start Expo development server
-- `npm run android` - Run on Android device/emulator
-- `npm run ios` - Run on iOS simulator
-- `npm run web` - Run in web browser
-- `npm run lint` - Run ESLint
 
 ## Dependencies Highlights
 
